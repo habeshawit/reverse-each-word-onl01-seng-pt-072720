@@ -13,6 +13,5 @@ def reverse_each_word(phrase)
   end
 end
 
-new_array = katz_deli.each_with_index.map {|customer, index| "#{index+1}. #{customer}"}
-    puts "The line is currently: #{new_array.join(" ")}"
+
 
