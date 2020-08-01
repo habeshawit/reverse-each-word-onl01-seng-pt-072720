@@ -7,9 +7,8 @@ def reverse_each_word(phrase)
 #  end
  # return second_array.join(" ")
  
-  new_array.collect do |word|
-    return new_array_2 = "#{word.reverse}"
-  end
+  second_array = new_array.collect {|word| "#{word.reverse}"
+  return second_array
 end
 
 #new_array = katz_deli.each_with_index.map {|customer, index| #"#{index+1}. #{customer}"}
