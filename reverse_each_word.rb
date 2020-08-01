@@ -1,4 +1,3 @@
-= begin
 def reverse_each_word(phrase)
   new_array = phrase.split(" ")
   second_array = []
@@ -8,6 +7,6 @@ def reverse_each_word(phrase)
   end
   return second_array.join(" ")
 end
-=end
+
 
 
