@@ -7,7 +7,7 @@ def reverse_each_word(phrase)
 #  end
  # return second_array.join(" ")
  
-  second_array = new_array.collect {|word| "#{word.reverse}"
+  second_array = new_array.collect {|word| "#{word.reverse}"}
   return second_array
 end
 
